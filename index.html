@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voice Agent Dashboard — Cita</title>
+<meta name="description" content="Live AI voice agent performance dashboard — powered by Cita">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN GATE -->
+<div class="login-screen" id="login-screen">
+  <div class="login-card">
+    <span class="brand-name display" style="font-size:32px;margin-bottom:4px;">Cita</span>
+    <p class="login-subtitle">AI Voice Agent Dashboard</p>
+    <form id="login-form" autocomplete="off">
+      <div class="login-field">
+        <label for="login-password">Dashboard Password</label>
+        <input type="password" id="login-password" placeholder="Enter your access code" required autofocus />
+      </div>
+      <button type="submit" class="login-btn" id="login-btn">Access Dashboard</button>
+      <p class="login-error" id="login-error" style="display:none;">Incorrect password. Please try again.</p>
+    </form>
+    <p class="login-footer">Protected dashboard · Powered by <b>Cita</b></p>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header" id="dashboard-header">
+  <div class="header-inner">
+    <div>
+      <div style="display:flex;align-items:center;gap:4px;">
+        <span class="brand-name display">Cita</span>
+        <span class="live-label"><span class="live-dot"></span>Agent Live</span>
+      </div>
+      <div class="header-sub">AI Voice Agent Dashboard · Powered by <b>Cita</b></div>
+    </div>
+    <div class="header-right">
+      <div class="period-selector" id="period-selector">
+        <button class="period-btn active" data-period="today">Today</button>
+        <button class="period-btn" data-period="7d">7 Days</button>
+        <button class="period-btn" data-period="30d">30 Days</button>
+      </div>
+      <div class="header-meta">
+        <span class="last-updated" id="last-updated">Updated just now</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CLIENT NAME BANNER -->
+<div class="client-banner fade-up" style="animation-delay:0.05s;">
+  <div class="client-banner-inner">
+    <span class="client-name display" id="client-name">Budget Heating, Cooling, and Plumbing</span>
+    <span class="client-badge">Client Dashboard</span>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main" id="dashboard">
+
+  <!-- ======= KEY BUSINESS METRICS (Google Sheets) ======= -->
+  <div class="hero-section fade-up" style="animation-delay:0.08s;">
+    <div class="hero-grid-business">
+
+      <!-- APPOINTMENTS BOOKED — from Google Sheets -->
+      <div class="hero-card appointments-hero">
+        <div class="hero-label">Appointments Booked</div>
+        <div class="hero-value huge mono" id="hero-appointments" style="color:var(--accent2);">0</div>
+        <div class="hero-sub">
+          Booked directly by your AI agent — <strong>zero human involvement</strong>
+        </div>
+        <div class="hero-trend up" style="background:var(--glow-accent);color:var(--accent2);">
+          <span id="hero-appt-trend">From Google Sheets</span>
+        </div>
+        <div class="hero-source">Source: Google Sheets</div>
+      </div>
+
+      <!-- REVENUE GENERATED — from Google Sheets -->
+      <div class="hero-card revenue-hero">
+        <div class="hero-label">Revenue Generated</div>
+        <div class="hero-value huge mono" id="hero-revenue" style="color:var(--teal);">$0</div>
+        <div class="hero-sub">
+          Closed revenue from AI-booked appointments
+        </div>
+        <div class="hero-trend up" style="background:rgba(45,212,191,0.12);color:var(--teal);">
+          <span id="hero-revenue-trend">From Google Sheets</span>
+        </div>
+        <div class="hero-source">Source: Google Sheets</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ======= RETELL HERO SECTION ======= -->
+  <div class="hero-section fade-up" style="animation-delay:0.15s;">
+    <div class="hero-grid">
+
+      <!-- HERO: TOTAL CALLS -->
+      <div class="hero-card calls-hero">
+        <div class="hero-label">Total Calls Handled</div>
+        <div class="hero-value huge mono" id="hero-total-calls">0</div>
+        <div class="hero-sub">
+          Your AI agent answering every call — <strong>zero hold time</strong>
+        </div>
+        <div class="hero-trend up" id="hero-trend">
+          <span id="hero-trend-text">↑ Loading...</span>
+        </div>
+      </div>
+
+      <!-- HERO: AVG DURATION -->
+      <div class="hero-card secondary">
+        <div class="hero-label">Average Duration</div>
+        <div class="hero-value large display" id="hero-avg-duration">—</div>
+        <div class="hero-sub">
+          Efficient handling — fast answers, no hold times
+        </div>
+      </div>
+
+      <!-- HERO: SUCCESS RATE -->
+      <div class="hero-card secondary">
+        <div class="hero-label">Success Rate</div>
+        <div class="hero-value large mono" id="hero-success-rate">—</div>
+        <div class="hero-sub">
+          Calls where the objective was achieved
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ======= RETELL METRICS STRIP ======= -->
+  <div class="section-title fade-up" style="animation-delay:0.2s;">
+    <span class="dot"></span> Call Performance
+  </div>
+
+  <div class="stat-grid fade-up" style="animation-delay:0.25s;" id="stat-grid">
+    <div class="stat-card">
+      <div class="s-label">Calls Handled</div>
+      <div class="s-value mono" id="stat-calls">—</div>
+      <div class="s-sub" id="stat-calls-sub">Loading...</div>
+    </div>
+    <div class="stat-card">
+      <div class="s-label">Success Rate</div>
+      <div class="s-value" style="color:var(--green);" id="stat-success">—</div>
+      <div class="s-sub">Calls with successful outcome</div>
+    </div>
+    <div class="stat-card">
+      <div class="s-label">Avg Duration</div>
+      <div class="s-value mono" id="stat-duration">—</div>
+      <div class="s-sub">Minutes per call</div>
+    </div>
+    <div class="stat-card">
+      <div class="s-label">Positive Sentiment</div>
+      <div class="s-value" style="color:var(--teal);" id="stat-sentiment">—</div>
+      <div class="s-sub">Callers with positive experience</div>
+    </div>
+  </div>
+
+  <!-- ======= INSIGHTS ROW 1: SENTIMENT + DISCONNECTION + OUTCOMES ======= -->
+  <div class="section-title fade-up" style="animation-delay:0.3s;">
+    <span class="dot" style="background:var(--teal);"></span> Call Insights
+  </div>
+
+  <div class="grid-3 fade-up" style="animation-delay:0.35s;">
+    <!-- Sentiment Breakdown -->
+    <div class="card">
+      <div class="card-title">User Sentiment <span class="badge">Live</span></div>
+      <div id="sentiment-bars">
+        <div class="bar-row">
+          <span class="b-label">Positive</span>
+          <div class="b-track"><div class="b-fill" id="bar-positive" style="width:0%;background:var(--green);"></div></div>
+          <span class="b-val" style="color:var(--green);" id="val-positive">—</span>
+        </div>
+        <div class="bar-row">
+          <span class="b-label">Neutral</span>
+          <div class="b-track"><div class="b-fill" id="bar-neutral" style="width:0%;background:var(--blue);"></div></div>
+          <span class="b-val" id="val-neutral">—</span>
+        </div>
+        <div class="bar-row">
+          <span class="b-label">Negative</span>
+          <div class="b-track"><div class="b-fill" id="bar-negative" style="width:0%;background:var(--red);"></div></div>
+          <span class="b-val" style="color:var(--red);" id="val-negative">—</span>
+        </div>
+      </div>
+      <div class="insight-note" id="sentiment-note">Loading sentiment data...</div>
+    </div>
+
+    <!-- Disconnection Reasons (dynamic) -->
+    <div class="card">
+      <div class="card-title">Disconnection Reasons <span class="badge">Live</span></div>
+      <div id="disconnection-bars"><!-- JS-rendered --></div>
+      <div class="insight-note" id="disconnection-note">Loading...</div>
+    </div>
+
+    <!-- Call Outcomes -->
+    <div class="card">
+      <div class="card-title">Call Outcomes <span class="badge" style="background:var(--glow-green);color:var(--green);">Live</span></div>
+      <div id="outcomes-display">
+        <div class="outcome-row">
+          <span class="outcome-label">Successful</span>
+          <span class="outcome-value mono" style="color:var(--green);" id="outcome-success">—</span>
+        </div>
+        <div class="outcome-row">
+          <span class="outcome-label">Unsuccessful</span>
+          <span class="outcome-value mono" style="color:var(--red);" id="outcome-fail">—</span>
+        </div>
+        <div class="outcome-row">
+          <span class="outcome-label">Voicemail</span>
+          <span class="outcome-value mono" id="outcome-voicemail">—</span>
+        </div>
+        <div class="outcome-row" style="border-bottom:none;">
+          <span class="outcome-label">Avg Cost per Call</span>
+          <span class="outcome-value mono" id="outcome-cost">—</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= INSIGHTS ROW 2: TRANSFER + CUSTOM ANALYSIS ======= -->
+  <div class="grid-2 fade-up" style="animation-delay:0.4s;">
+
+    <!-- Call Transfer Metrics -->
+    <div class="card">
+      <div class="card-title">Call Transfers <span class="badge">Live</span></div>
+      <div class="transfer-stats">
+        <div class="transfer-big">
+          <span class="transfer-val mono" id="transfer-count">0</span>
+          <span class="transfer-label">Transfers</span>
+        </div>
+        <div class="transfer-big">
+          <span class="transfer-val mono" style="color:var(--teal);" id="transfer-rate">0%</span>
+          <span class="transfer-label">Transfer Rate</span>
+        </div>
+      </div>
+      <div class="transfer-bar-wrap">
+        <div class="b-track"><div class="b-fill" id="bar-transfer" style="width:0%;background:var(--teal);"></div></div>
+      </div>
+      <div class="insight-note" id="transfer-note">Loading...</div>
+    </div>
+
+    <!-- Custom Analysis / Call Status -->
+    <div class="card">
+      <div class="card-title">Call Status Breakdown <span class="badge">Live</span></div>
+      <div id="custom-analysis-bars"><!-- JS-rendered --></div>
+    </div>
+
+  </div>
+
+  <!-- ======= DAILY CALL COUNTS ======= -->
+  <div class="section-title fade-up" style="animation-delay:0.45s;">
+    <span class="dot" style="background:var(--blue);"></span> Daily Call Counts
+    <span class="section-badge">Last 30 Days</span>
+  </div>
+
+  <div class="card fade-up" style="animation-delay:0.5s;">
+    <div class="daily-counts-grid" id="daily-counts-grid"><!-- JS-rendered --></div>
+  </div>
+
+  <!-- ======= RECENT CALLS TABLE ======= -->
+  <div class="section-title fade-up" style="animation-delay:0.55s;">
+    <span class="dot" style="background:var(--blue);"></span> Recent Calls
+    <span class="section-count" id="call-count">0 calls</span>
+  </div>
+
+  <div class="card fade-up" style="animation-delay:0.6s;padding:0;">
+    <table class="call-table" id="call-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Dir</th>
+          <th>Duration</th>
+          <th>Sentiment</th>
+          <th>Status</th>
+          <th>Summary</th>
+        </tr>
+      </thead>
+      <tbody id="call-table-body">
+        <!-- Populated by JS -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ======= SHEETS WIDGET ======= -->
+  <div class="sheets-section fade-up" style="animation-delay:0.5s;display:none;" id="sheets-section">
+    <div class="section-title">
+      <span class="dot" style="background:var(--amber);"></span>
+      <span id="sheets-title">Additional Data</span>
+      <span class="section-badge">Google Sheets</span>
+    </div>
+    <div class="card" style="padding:0;">
+      <table class="call-table" id="sheets-table">
+        <thead id="sheets-thead"></thead>
+        <tbody id="sheets-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <span>Powered by <b>Cita</b> · AI Voice & Automation</span>
+  <span id="footer-generated">Live Dashboard</span>
+</div>
+
+<!-- LOADING OVERLAY -->
+<div class="loading-overlay" id="loading-overlay">
+  <div class="loading-spinner">
+    <img src="cita-logo.svg" alt="Cita" style="width:120px;height:auto;margin-bottom:16px;opacity:0.8;">
+    <div class="spinner-ring"></div>
+    <p>Loading dashboard...</p>
+  </div>
+</div>
+
+<!-- ERROR TOAST -->
+<div class="error-toast" id="error-toast" style="display:none;">
+  <span class="error-icon">⚠️</span>
+  <span class="error-message" id="error-message">Unable to load data</span>
+  <button class="error-retry" id="error-retry">Retry</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
