@@ -1,50 +1,50 @@
 {
   "client_name": "Budget",
   "agent_name": "Budget (12 agents)",
-  "generated_at": "2026-04-20T17:50:20.820905",
+  "generated_at": "2026-04-20T18:50:14.287376",
   "stats": {
-    "total_calls": 1935,
-    "avg_duration_seconds": 97.4,
-    "total_talk_time_seconds": 188423,
+    "total_calls": 1945,
+    "avg_duration_seconds": 97.1,
+    "total_talk_time_seconds": 188852,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 798.2,
-    "success_rate_pct": 81.6,
-    "successful_calls": 1578,
-    "failed_calls": 357,
+    "success_rate_pct": 81.4,
+    "successful_calls": 1584,
+    "failed_calls": 361,
     "sentiment": {
-      "positive": 283,
-      "neutral": 1538,
-      "negative": 61,
-      "unknown": 53,
-      "positive_pct": 14.6,
-      "neutral_pct": 79.5,
+      "positive": 285,
+      "neutral": 1544,
+      "negative": 62,
+      "unknown": 54,
+      "positive_pct": 14.7,
+      "neutral_pct": 79.4,
       "negative_pct": 3.2
     },
     "disconnection_reasons": {
-      "user_hangup": 905,
+      "user_hangup": 911,
+      "call_transfer": 839,
       "agent_hangup": 185,
-      "call_transfer": 835,
       "voicemail_reached": 4,
       "inactivity": 2,
       "error_unknown": 2,
       "error_retell": 2
     },
     "direction": {
-      "inbound": 1935,
+      "inbound": 1945,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 688.58,
-      "avg_per_call": 0.36,
+      "total": 690.21,
+      "avg_per_call": 0.35,
       "by_product": {
-        "retell_voice_engine": 173.03,
-        "elevenlabs_tts_03_2026": 121.99,
-        "gpt_4_1_high_priority": 213.51,
-        "llm_token_surcharge": 162.3,
-        "knowledge_base_usage": 14.39,
-        "elevenlabs_tts_new": 1.4
+        "retell_voice_engine": 173.44,
+        "elevenlabs_tts_03_2026": 122.47,
+        "gpt_4_1_high_priority": 213.98,
+        "llm_token_surcharge": 162.61,
+        "knowledge_base_usage": 14.4,
+        "elevenlabs_tts_new": 1.32
       }
     },
     "voicemail": {
@@ -53,20 +53,20 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
-        "Unsure": 719,
-        "Yes": 283,
-        "No": 851,
+        "Unsure": 724,
+        "No": 854,
+        "Yes": 284,
         "Maybe": 29
       },
       "call_status": {
-        "call_ended_abruptly": 307,
-        "requested_contact": 1498,
-        "information_only_no_contact": 65,
-        "emegency_transfer": 12
+        "requested_contact": 1502,
+        "emegency_transfer": 14,
+        "call_ended_abruptly": 310,
+        "information_only_no_contact": 65
       }
     },
     "daily_volume": {
-      "2026-03-21": 13,
+      "2026-03-21": 11,
       "2026-03-22": 19,
       "2026-03-23": 111,
       "2026-03-24": 78,
@@ -96,47 +96,47 @@
       "2026-04-17": 85,
       "2026-04-18": 27,
       "2026-04-19": 2,
-      "2026-04-20": 35
+      "2026-04-20": 47
     }
   },
   "stats_today": {
-    "total_calls": 35,
-    "avg_duration_seconds": 105.5,
-    "total_talk_time_seconds": 3693,
-    "min_duration_seconds": 6.3,
+    "total_calls": 47,
+    "avg_duration_seconds": 94.2,
+    "total_talk_time_seconds": 4427,
+    "min_duration_seconds": 0.0,
     "max_duration_seconds": 423.5,
-    "success_rate_pct": 77.1,
-    "successful_calls": 27,
-    "failed_calls": 8,
+    "success_rate_pct": 74.5,
+    "successful_calls": 35,
+    "failed_calls": 12,
     "sentiment": {
-      "positive": 7,
-      "neutral": 25,
-      "negative": 3,
-      "unknown": 0,
-      "positive_pct": 20.0,
-      "neutral_pct": 71.4,
-      "negative_pct": 8.6
+      "positive": 9,
+      "neutral": 33,
+      "negative": 4,
+      "unknown": 1,
+      "positive_pct": 19.1,
+      "neutral_pct": 70.2,
+      "negative_pct": 8.5
     },
     "disconnection_reasons": {
-      "user_hangup": 17,
-      "agent_hangup": 2,
-      "call_transfer": 16
+      "user_hangup": 24,
+      "call_transfer": 21,
+      "agent_hangup": 2
     },
     "direction": {
-      "inbound": 35,
+      "inbound": 47,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 14.18,
-      "avg_per_call": 0.41,
+      "total": 16.83,
+      "avg_per_call": 0.36,
       "by_product": {
-        "retell_voice_engine": 3.42,
-        "elevenlabs_tts_03_2026": 2.49,
-        "gpt_4_1_high_priority": 4.18,
-        "llm_token_surcharge": 3.81,
-        "knowledge_base_usage": 0.29
+        "retell_voice_engine": 4.1,
+        "elevenlabs_tts_03_2026": 2.97,
+        "gpt_4_1_high_priority": 5.0,
+        "llm_token_surcharge": 4.39,
+        "knowledge_base_usage": 0.34
       }
     },
     "voicemail": {
@@ -145,58 +145,59 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
-        "Unsure": 9,
-        "Yes": 9,
-        "No": 17
+        "Unsure": 14,
+        "No": 21,
+        "Yes": 11
       },
       "call_status": {
-        "call_ended_abruptly": 8,
-        "requested_contact": 27
+        "requested_contact": 33,
+        "emegency_transfer": 2,
+        "call_ended_abruptly": 11
       }
     },
     "daily_volume": {
-      "2026-04-20": 35
+      "2026-04-20": 47
     }
   },
   "stats_7d": {
-    "total_calls": 540,
-    "avg_duration_seconds": 104.4,
-    "total_talk_time_seconds": 56351,
+    "total_calls": 541,
+    "avg_duration_seconds": 104.9,
+    "total_talk_time_seconds": 56729,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 566.9,
-    "success_rate_pct": 83.1,
+    "success_rate_pct": 83.0,
     "successful_calls": 449,
-    "failed_calls": 91,
+    "failed_calls": 92,
     "sentiment": {
-      "positive": 85,
-      "neutral": 423,
-      "negative": 20,
+      "positive": 86,
+      "neutral": 422,
+      "negative": 21,
       "unknown": 12,
-      "positive_pct": 15.7,
-      "neutral_pct": 78.3,
-      "negative_pct": 3.7
+      "positive_pct": 15.9,
+      "neutral_pct": 78.0,
+      "negative_pct": 3.9
     },
     "disconnection_reasons": {
-      "user_hangup": 262,
+      "user_hangup": 265,
+      "call_transfer": 228,
       "agent_hangup": 47,
-      "call_transfer": 230,
       "voicemail_reached": 1
     },
     "direction": {
-      "inbound": 540,
+      "inbound": 541,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 212.62,
-      "avg_per_call": 0.39,
+      "total": 214.04,
+      "avg_per_call": 0.4,
       "by_product": {
-        "retell_voice_engine": 51.72,
-        "elevenlabs_tts_03_2026": 37.65,
-        "gpt_4_1_high_priority": 63.78,
-        "llm_token_surcharge": 54.52,
-        "knowledge_base_usage": 4.33
+        "retell_voice_engine": 52.07,
+        "elevenlabs_tts_03_2026": 37.89,
+        "gpt_4_1_high_priority": 64.19,
+        "llm_token_surcharge": 54.89,
+        "knowledge_base_usage": 4.36
       }
     },
     "voicemail": {
@@ -205,30 +206,210 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
-        "Unsure": 194,
-        "Yes": 87,
-        "No": 241,
+        "Unsure": 197,
+        "No": 237,
+        "Yes": 89,
         "Maybe": 6
       },
       "call_status": {
-        "call_ended_abruptly": 78,
         "requested_contact": 427,
-        "information_only_no_contact": 18,
-        "emegency_transfer": 5
+        "emegency_transfer": 6,
+        "call_ended_abruptly": 79,
+        "information_only_no_contact": 17
       }
     },
     "daily_volume": {
-      "2026-04-13": 46,
+      "2026-04-13": 35,
       "2026-04-14": 145,
       "2026-04-15": 119,
       "2026-04-16": 81,
       "2026-04-17": 85,
       "2026-04-18": 27,
       "2026-04-19": 2,
-      "2026-04-20": 35
+      "2026-04-20": 47
     }
   },
   "recent_calls": [
+    {
+      "call_id": "call_de750507396915e94e5de80d0ca",
+      "timestamp": "2026-04-20T18:46:35.221000",
+      "duration": "1m 44s",
+      "duration_seconds": 105,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "Simon from American Home Shield called to get an update on the scheduling of an air conditioning service appointment. The agent confirmed the dispatch number and clarified that the technician had already serviced the unit. The agent assured Simon that the request for an update would be passed on to the team for follow-up.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+18007764663",
+      "to_number": "+18156863613",
+      "cost": 0.45,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_6c61fcbc48d863fdd6351406741",
+      "timestamp": "2026-04-20T18:25:59.860000",
+      "duration": "58s",
+      "duration_seconds": 59,
+      "sentiment": "Negative",
+      "successful": true,
+      "summary": "The user urgently requested to speak to someone immediately regarding heating and cooling issues causing active damage. The agent acknowledged the emergency and transferred the call to a live agent for further assistance. The user expressed frustration about getting a runaround before the transfer.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+13145988209",
+      "to_number": "+18156863613",
+      "cost": 0.2,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_ee9fbfe78e3f12ca03d2d936e00",
+      "timestamp": "2026-04-20T18:25:51.044000",
+      "duration": "3s",
+      "duration_seconds": 4,
+      "sentiment": "Neutral",
+      "successful": false,
+      "summary": "The call was very brief and ended abruptly after the agent greeted the user. No further conversation or information exchange took place.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13145988209",
+      "to_number": "+18156863613",
+      "cost": 0.01,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_d88f83d6b11f9fcc74e68ebd25e",
+      "timestamp": "2026-04-20T18:23:28.632000",
+      "duration": "17s",
+      "duration_seconds": 18,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "The user requested to speak with a live human agent instead of the AI agent. The AI agent acknowledged the request and successfully transferred the call to a live agent.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+13145988209",
+      "to_number": "+18156863613",
+      "cost": 0.05,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_25afaafb0dc771c281327410f53",
+      "timestamp": "2026-04-20T18:20:23.883000",
+      "duration": "46s",
+      "duration_seconds": 46,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "The user called to follow up on a previous service visit related to cooling and requested to speak to a live agent. The initial agent attempted to assist but transferred the call to another agent for further help.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+13145988209",
+      "to_number": "+18156863613",
+      "cost": 0.17,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_f2e85a3af0a0d462bd1005db134",
+      "timestamp": "2026-04-20T18:17:51.755000",
+      "duration": "32s",
+      "duration_seconds": 32,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "The user called back to follow up on a previous contact from Nicole regarding scheduling an inspection of the inside of their AC unit before summer. The agent confirmed the correct number and transferred the call to a live agent for further assistance.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+15135827268",
+      "to_number": "+18156863613",
+      "cost": 0.09,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_fca89aea9a2cd062ae36d2d873e",
+      "timestamp": "2026-04-20T18:06:00.057000",
+      "duration": "1m 14s",
+      "duration_seconds": 75,
+      "sentiment": "Neutral",
+      "successful": false,
+      "summary": "The call was initiated by the user but the conversation did not progress as the user was inaudible and did not respond to the agent's prompts. The call ended shortly after without any resolution or further interaction.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13143551179",
+      "to_number": "+18156863613",
+      "cost": 0.21,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_db5a758aa7ea089849db35fd43a",
+      "timestamp": "2026-04-20T18:05:59.701000",
+      "duration": "5m 31s",
+      "duration_seconds": 331,
+      "sentiment": "Positive",
+      "successful": true,
+      "summary": "Lisa called to schedule a service appointment for her furnace and an electrical issue under her American Home Shield home warranty. She requested a service time around 3 PM any day this week, preferably Friday afternoon. The agent confirmed the details, noted Lisa's interest in maintenance programs, and the call ended positively with Lisa providing excellent feedback.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13148993535",
+      "to_number": "+18156863613",
+      "cost": 1.27,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_606999e38af2a6321479c21f531",
+      "timestamp": "2026-04-20T18:05:12.537000",
+      "duration": "6s",
+      "duration_seconds": 6,
+      "sentiment": "Neutral",
+      "successful": false,
+      "summary": "The call was very brief with the user making a short statement. No specific service or request was discussed.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13148993535",
+      "to_number": "+18156863613",
+      "cost": 0.02,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_e4856580d4de9d06647ea5d2eb7",
+      "timestamp": "2026-04-20T18:04:52.905000",
+      "duration": "0s",
+      "duration_seconds": 0,
+      "sentiment": "Unknown",
+      "successful": false,
+      "summary": "",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13144970212",
+      "to_number": "+18156863613",
+      "cost": 0.0,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_0637e8b405f75ab00e5281db684",
+      "timestamp": "2026-04-20T18:03:36.421000",
+      "duration": "30s",
+      "duration_seconds": 30,
+      "sentiment": "Positive",
+      "successful": true,
+      "summary": "The user informed the agent that their heating and cooling issues have already been fixed and requested to cancel the existing order. The agent acknowledged the update and confirmed the cancellation request. The call ended with the user expressing no further needs.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13142493055",
+      "to_number": "+18156863613",
+      "cost": 0.09,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_c8e0b354c3732464e6f4c87e73b",
+      "timestamp": "2026-04-20T18:00:36.803000",
+      "duration": "27s",
+      "duration_seconds": 28,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "The user, Honey Norlander, called in response to a previous call regarding an appointment with American Home Shield. The agent acknowledged the user's request and transferred the call to a live agent for further assistance with the appointment.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+13144970212",
+      "to_number": "+18156863613",
+      "cost": 0.08,
+      "in_voicemail": false
+    },
     {
       "call_id": "call_4b37320d91f6939d93a4f660041",
       "timestamp": "2026-04-20T17:44:28.025000",
@@ -797,186 +978,6 @@
       "from_number": "+13145854289",
       "to_number": "+18156863613",
       "cost": 0.73,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_79779db816a08362e617451139e",
-      "timestamp": "2026-04-18T18:51:21.550000",
-      "duration": "3m 35s",
-      "duration_seconds": 215,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user, Heather Dake, called to inquire about a refrigerant leak and Freon refill for her air conditioning system. The agent collected her contact and service details and informed her that a licensed technician would need to diagnose the issue before providing a quote. Heather requested a follow-up with pricing information and expressed interest in maintenance program details.",
-      "disconnection_reason": "user_hangup",
-      "direction": "inbound",
-      "from_number": "+16368668256",
-      "to_number": "+18156863613",
-      "cost": 0.87,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_85328b5b90e8f5fe06b476cc282",
-      "timestamp": "2026-04-18T18:44:40.661000",
-      "duration": "23s",
-      "duration_seconds": 23,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user called to report that a technician named Patrick did not show up for a scheduled appointment. The agent acknowledged the issue and transferred the call to a live agent for further assistance.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13142653991",
-      "to_number": "+18156863613",
-      "cost": 0.07,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_b86b3c3fe1a91ebc7857e907aa2",
-      "timestamp": "2026-04-18T18:43:19.398000",
-      "duration": "14s",
-      "duration_seconds": 15,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user requested to speak to a live agent, and the initial agent transferred the call to another agent successfully. The call lasted 14 seconds and ended with a call transfer.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+16362536266",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_34ef6fbf238427a74ae44f97cef",
-      "timestamp": "2026-04-18T18:41:20.130000",
-      "duration": "56s",
-      "duration_seconds": 56,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user, Danielle Green, called to inquire about the technician's arrival time. The agent confirmed the appointment details, informing her that technician Michael is scheduled to arrive between 1:45 and 2:45 PM. The user did not request any further assistance or changes.",
-      "disconnection_reason": "user_hangup",
-      "direction": "inbound",
-      "from_number": "+13145854289",
-      "to_number": "+18156863613",
-      "cost": 0.17,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_c83e20699636c0dd33535329bb4",
-      "timestamp": "2026-04-18T18:37:20.786000",
-      "duration": "15s",
-      "duration_seconds": 16,
-      "sentiment": "Neutral",
-      "successful": false,
-      "summary": "The call was initiated by the user but ended abruptly after the agent's initial greeting without further conversation.",
-      "disconnection_reason": "user_hangup",
-      "direction": "inbound",
-      "from_number": "+13148098499",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_7e05fb71de94979688f9f5b7f6d",
-      "timestamp": "2026-04-18T18:36:30.378000",
-      "duration": "52s",
-      "duration_seconds": 53,
-      "sentiment": "Neutral",
-      "successful": false,
-      "summary": "The agent attempted to engage with the user named Williams but received inaudible responses and no clear communication. The call ended with the user hanging up without any resolution or request for services.",
-      "disconnection_reason": "user_hangup",
-      "direction": "inbound",
-      "from_number": "+13148098499",
-      "to_number": "+18156863613",
-      "cost": 0.15,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_a49fd66a02c4f3d7e83ffe02e99",
-      "timestamp": "2026-04-18T18:32:19.565000",
-      "duration": "13s",
-      "duration_seconds": 14,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user requested to speak to a live agent, and the initial agent transferred the call to another agent successfully. The call lasted 13 seconds and ended with a call transfer.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+16362536266",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_6e08699d1323df0d0578a1b2b1a",
-      "timestamp": "2026-04-18T18:26:38.194000",
-      "duration": "14s",
-      "duration_seconds": 14,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user requested to speak with a live agent, and the initial agent transferred the call to another representative. The transfer was completed successfully.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13147163304",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_ee8a7185cc5455f16eb51786e53",
-      "timestamp": "2026-04-18T18:25:40.480000",
-      "duration": "15s",
-      "duration_seconds": 15,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user requested to speak with a live agent, and the initial agent transferred the call to another representative successfully. The call lasted 15 seconds and ended with a call transfer.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13147163304",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_9c3d55c85ac9fa3c20741da1352",
-      "timestamp": "2026-04-18T18:24:38.715000",
-      "duration": "14s",
-      "duration_seconds": 15,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user requested to speak with a live agent, and the call was promptly transferred to another agent for further assistance.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13147163304",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_26678ed1721199315af28f130c0",
-      "timestamp": "2026-04-18T18:23:48.873000",
-      "duration": "14s",
-      "duration_seconds": 14,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user requested to speak with a live agent, and the call was promptly transferred to another agent for further assistance.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13147163304",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_c051b813099809c27615ce1c4c0",
-      "timestamp": "2026-04-18T18:22:12.874000",
-      "duration": "28s",
-      "duration_seconds": 29,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user called to inquire about a missed appointment at their house. The agent apologized for the inconvenience and transferred the call to someone who could provide live updates. The call ended with a successful transfer to another representative.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13147163304",
-      "to_number": "+18156863613",
-      "cost": 0.08,
       "in_voicemail": false
     }
   ]
