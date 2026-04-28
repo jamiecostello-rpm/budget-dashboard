@@ -1,28 +1,28 @@
 {
   "client_name": "Budget",
   "agent_name": "Budget (12 agents)",
-  "generated_at": "2026-04-28T19:54:29.108255",
+  "generated_at": "2026-04-28T21:07:53.897841",
   "stats": {
-    "total_calls": 1824,
+    "total_calls": 1831,
     "avg_duration_seconds": 92.3,
-    "total_talk_time_seconds": 168268,
+    "total_talk_time_seconds": 168911,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 840.4,
     "success_rate_pct": 81.8,
-    "successful_calls": 1492,
-    "failed_calls": 332,
+    "successful_calls": 1498,
+    "failed_calls": 333,
     "sentiment": {
-      "positive": 248,
-      "neutral": 1469,
+      "positive": 249,
+      "neutral": 1475,
       "negative": 61,
       "unknown": 46,
       "positive_pct": 13.6,
-      "neutral_pct": 80.5,
+      "neutral_pct": 80.6,
       "negative_pct": 3.3
     },
     "disconnection_reasons": {
-      "user_hangup": 818,
-      "call_transfer": 850,
+      "call_transfer": 854,
+      "user_hangup": 821,
       "agent_hangup": 147,
       "voicemail_reached": 4,
       "error_unknown": 3,
@@ -30,20 +30,20 @@
       "error_retell": 1
     },
     "direction": {
-      "inbound": 1824,
+      "inbound": 1831,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 619.17,
+      "total": 621.58,
       "avg_per_call": 0.34,
       "by_product": {
-        "retell_voice_engine": 154.6,
-        "elevenlabs_tts_03_2026": 112.34,
-        "gpt_4_1_high_priority": 190.73,
-        "knowledge_base_usage": 12.63,
-        "llm_token_surcharge": 146.89
+        "retell_voice_engine": 155.18,
+        "elevenlabs_tts_03_2026": 112.77,
+        "gpt_4_1_high_priority": 191.48,
+        "llm_token_surcharge": 147.43,
+        "knowledge_base_usage": 12.69
       }
     },
     "voicemail": {
@@ -52,15 +52,15 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
-        "Unsure": 713,
-        "No": 812,
+        "Unsure": 718,
+        "No": 814,
         "Yes": 232,
         "Maybe": 21
       },
       "call_status": {
-        "call_ended_abruptly": 289,
+        "requested_contact": 1418,
+        "call_ended_abruptly": 290,
         "information_only_no_contact": 65,
-        "requested_contact": 1412,
         "emegency_transfer": 12
       }
     },
@@ -94,110 +94,110 @@
       "2026-04-25": 7,
       "2026-04-26": 4,
       "2026-04-27": 58,
-      "2026-04-28": 51
+      "2026-04-28": 58
     }
   },
   "stats_today": {
-    "total_calls": 51,
-    "avg_duration_seconds": 93.8,
-    "total_talk_time_seconds": 4783,
+    "total_calls": 58,
+    "avg_duration_seconds": 93.6,
+    "total_talk_time_seconds": 5427,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 499.9,
-    "success_rate_pct": 82.4,
-    "successful_calls": 42,
-    "failed_calls": 9,
+    "success_rate_pct": 82.8,
+    "successful_calls": 48,
+    "failed_calls": 10,
     "sentiment": {
-      "positive": 4,
-      "neutral": 45,
+      "positive": 5,
+      "neutral": 51,
       "negative": 1,
       "unknown": 1,
-      "positive_pct": 7.8,
-      "neutral_pct": 88.2,
-      "negative_pct": 2.0
+      "positive_pct": 8.6,
+      "neutral_pct": 87.9,
+      "negative_pct": 1.7
     },
     "disconnection_reasons": {
-      "user_hangup": 20,
-      "call_transfer": 26,
+      "call_transfer": 30,
+      "user_hangup": 23,
       "agent_hangup": 4,
       "voicemail_reached": 1
     },
     "direction": {
-      "inbound": 51,
+      "inbound": 58,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 18.17,
-      "avg_per_call": 0.36,
+      "total": 20.59,
+      "avg_per_call": 0.35,
       "by_product": {
-        "retell_voice_engine": 4.38,
-        "elevenlabs_tts_03_2026": 3.19,
-        "gpt_4_1_high_priority": 5.41,
-        "knowledge_base_usage": 0.36,
-        "llm_token_surcharge": 4.74
+        "retell_voice_engine": 4.98,
+        "elevenlabs_tts_03_2026": 3.62,
+        "gpt_4_1_high_priority": 6.13,
+        "llm_token_surcharge": 5.34,
+        "knowledge_base_usage": 0.41
       }
     },
     "voicemail": {
       "count": 1,
-      "pct": 2.0
+      "pct": 1.7
     },
     "custom_analysis": {
       "maintenance_interest": {
-        "Unsure": 21,
-        "No": 22,
+        "Unsure": 26,
+        "No": 24,
         "Yes": 7
       },
       "call_status": {
-        "call_ended_abruptly": 9,
-        "information_only_no_contact": 3,
-        "requested_contact": 38
+        "requested_contact": 44,
+        "call_ended_abruptly": 10,
+        "information_only_no_contact": 3
       }
     },
     "daily_volume": {
-      "2026-04-28": 51
+      "2026-04-28": 58
     }
   },
   "stats_7d": {
-    "total_calls": 321,
-    "avg_duration_seconds": 78.9,
-    "total_talk_time_seconds": 25337,
+    "total_calls": 322,
+    "avg_duration_seconds": 80.0,
+    "total_talk_time_seconds": 25749,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 499.9,
-    "success_rate_pct": 78.5,
-    "successful_calls": 252,
+    "success_rate_pct": 78.6,
+    "successful_calls": 253,
     "failed_calls": 69,
     "sentiment": {
-      "positive": 35,
+      "positive": 36,
       "neutral": 273,
       "negative": 5,
       "unknown": 8,
-      "positive_pct": 10.9,
-      "neutral_pct": 85.0,
+      "positive_pct": 11.2,
+      "neutral_pct": 84.8,
       "negative_pct": 1.6
     },
     "disconnection_reasons": {
-      "user_hangup": 142,
       "call_transfer": 157,
+      "user_hangup": 143,
       "agent_hangup": 20,
       "voicemail_reached": 1,
       "error_unknown": 1
     },
     "direction": {
-      "inbound": 321,
+      "inbound": 322,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 93.58,
-      "avg_per_call": 0.29,
+      "total": 95.13,
+      "avg_per_call": 0.3,
       "by_product": {
-        "retell_voice_engine": 23.36,
-        "elevenlabs_tts_03_2026": 16.95,
-        "gpt_4_1_high_priority": 28.76,
-        "knowledge_base_usage": 1.88,
-        "llm_token_surcharge": 22.37
+        "retell_voice_engine": 23.73,
+        "elevenlabs_tts_03_2026": 17.23,
+        "gpt_4_1_high_priority": 29.21,
+        "llm_token_surcharge": 22.76,
+        "knowledge_base_usage": 1.93
       }
     },
     "voicemail": {
@@ -207,28 +207,133 @@
     "custom_analysis": {
       "maintenance_interest": {
         "Unsure": 136,
-        "No": 146,
+        "No": 147,
         "Yes": 29,
         "Maybe": 2
       },
       "call_status": {
+        "requested_contact": 237,
         "call_ended_abruptly": 63,
-        "information_only_no_contact": 15,
-        "requested_contact": 235
+        "information_only_no_contact": 14
       }
     },
     "daily_volume": {
-      "2026-04-21": 11,
+      "2026-04-21": 5,
       "2026-04-22": 72,
       "2026-04-23": 61,
       "2026-04-24": 57,
       "2026-04-25": 7,
       "2026-04-26": 4,
       "2026-04-27": 58,
-      "2026-04-28": 51
+      "2026-04-28": 58
     }
   },
   "recent_calls": [
+    {
+      "call_id": "call_e4632813a95374bb092f8fed786",
+      "timestamp": "2026-04-28T20:56:54.411000",
+      "duration": "1m 23s",
+      "duration_seconds": 84,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "The user called to inquire if a technician had come to their house for a cooling system service appointment scheduled for that day. The agent attempted to assist but ultimately transferred the call to a live agent for further help. The user wanted to confirm the technician's visit status.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+13147984540",
+      "to_number": "+18156863613",
+      "cost": 0.35,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_e37e0011bc62dc6f9508ebe9061",
+      "timestamp": "2026-04-28T20:54:42.736000",
+      "duration": "4m 11s",
+      "duration_seconds": 251,
+      "sentiment": "Positive",
+      "successful": true,
+      "summary": "Paula from American Home Shield called Budget to follow up on the status of a work order for Angela Severe's central electric AC at 2401 Quinn Drive, St. Louis, MO. The homeowner has accepted the out-of-pocket cost, and Paula requested a status update on the parts, providing the dispatch number and contact information for follow-up. The agent confirmed the details and assured Paula that the request would be passed to the team for a response within the day.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+18444284083",
+      "to_number": "+18156863613",
+      "cost": 1.06,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_849118c9bb66d6d1010e0b0a58f",
+      "timestamp": "2026-04-28T20:40:54.230000",
+      "duration": "2m 48s",
+      "duration_seconds": 169,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "Ryan called to report an issue with his cooling system not blowing cold air and wanted to schedule a warranty service appointment. The agent collected all necessary details and confirmed the information with Ryan, who declined information about maintenance programs and feedback requests. The call ended with the agent assuring that someone from Budget Heating, Cooling & Plumbing would contact Ryan soon.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+17608053161",
+      "to_number": "+18156863613",
+      "cost": 0.62,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_395ca16bdb6fc820fa5aea60f23",
+      "timestamp": "2026-04-28T20:35:33.290000",
+      "duration": "16s",
+      "duration_seconds": 16,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "The user requested to speak to a representative, and the agent promptly transferred the call to a live agent. The transfer was successful, and the call ended shortly after.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+19012387328",
+      "to_number": "+18156863613",
+      "cost": 0.05,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_9e27e5a1bef59c1aebf5d53728c",
+      "timestamp": "2026-04-28T20:34:58.534000",
+      "duration": "29s",
+      "duration_seconds": 30,
+      "sentiment": "Neutral",
+      "successful": false,
+      "summary": "The call was brief and somewhat disjointed, with the user repeatedly asking if the agent could hear her. The agent identified herself as Sophie from Budget and attempted to assist, but the conversation did not progress to any specific request or resolution before the user hung up.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+19012387328",
+      "to_number": "+18156863613",
+      "cost": 0.09,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_489db0713aa84332fd4ff8b00b6",
+      "timestamp": "2026-04-28T20:33:04.794000",
+      "duration": "1m 15s",
+      "duration_seconds": 76,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "The user called to inquire about the details of a quote related to a recoil piece and a new system, expressing confusion about the increased quote amount. The agent attempted to assist but, due to the nature of the questions involving billing, transferred the call to the billing team for further assistance.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+19012387328",
+      "to_number": "+18156863613",
+      "cost": 0.21,
+      "in_voicemail": false
+    },
+    {
+      "call_id": "call_4fc1c16db86bf0e8a8797058278",
+      "timestamp": "2026-04-28T20:23:56.842000",
+      "duration": "17s",
+      "duration_seconds": 18,
+      "sentiment": "Neutral",
+      "successful": true,
+      "summary": "The user, Angela, called and requested to speak with a live agent. The initial agent, Sophie, promptly transferred the call to another agent for further assistance.",
+      "disconnection_reason": "call_transfer",
+      "direction": "inbound",
+      "from_number": "+13145181182",
+      "to_number": "+18156863613",
+      "cost": 0.05,
+      "in_voicemail": false
+    },
     {
       "call_id": "call_1ab5bef8d50c04e55dcbda691a7",
       "timestamp": "2026-04-28T19:49:58.539000",
@@ -872,111 +977,6 @@
       "from_number": "+13147493077",
       "to_number": "+18156863613",
       "cost": 0.15,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_a9d96edad503008f009391668f4",
-      "timestamp": "2026-04-28T13:39:43.047000",
-      "duration": "2m 48s",
-      "duration_seconds": 169,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user called to inquire about HVAC service in the Foley area and reported an AC unit issue that could be addressed during a service appointment within the next 24 to 48 hours. The agent confirmed the user's details, corrected the service address, and clarified the home warranty dispatch number. The call ended with the user declining to provide feedback.",
-      "disconnection_reason": "user_hangup",
-      "direction": "inbound",
-      "from_number": "+18888929920",
-      "to_number": "+18156863613",
-      "cost": 0.63,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_479e822c1d7a5b33dbfa2f732cc",
-      "timestamp": "2026-04-28T13:34:43.487000",
-      "duration": "4m 23s",
-      "duration_seconds": 263,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user called to schedule a routine air conditioner check for the morning of June 16th but was informed there were no available slots on that day. The user then requested June 17th, but the call was transferred to a live agent before the booking could be completed. The user also specified not wanting a particular technician.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13144777361",
-      "to_number": "+18156863613",
-      "cost": 1.01,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_fe37692c41874f0b3132dfba893",
-      "timestamp": "2026-04-28T13:31:08.024000",
-      "duration": "4m 8s",
-      "duration_seconds": 248,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user, Whitney Davis, called to urgently schedule air conditioning repair service at 5764 Goodfella Boulevard, ZIP code 63136. The agent booked an appointment for the next day at 10 AM after confirming details and the user's role as renter. The user declined to provide an email and declined to give feedback at the end of the call.",
-      "disconnection_reason": "user_hangup",
-      "direction": "inbound",
-      "from_number": "+16182075835",
-      "to_number": "+18156863613",
-      "cost": 1.02,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_1eaedcfccc7db5e96ab60e56966",
-      "timestamp": "2026-04-28T13:24:16.190000",
-      "duration": "5m 20s",
-      "duration_seconds": 320,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "Joe Gardner called to report that his air conditioner, covered under American Home Shield, was supposed to be fixed but the technician never came. The agent confirmed details including the service address, issue, and updated contact information to Whitney Davis, and scheduled service for the morning or early afternoon. The call ended with the user declining to provide feedback and the agent confirming the service request.",
-      "disconnection_reason": "agent_hangup",
-      "direction": "inbound",
-      "from_number": "+13144120182",
-      "to_number": "+18156863613",
-      "cost": 1.23,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_7365cb5f9c841e8d4f1c64d8d85",
-      "timestamp": "2026-04-28T13:14:42.424000",
-      "duration": "3m 1s",
-      "duration_seconds": 182,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user called to report a missed air conditioning service at their home in St. Louis, Missouri, and requested a follow-up service either today or Thursday. The agent confirmed the details and attempted to assist but the user indicated they were speaking to the wrong person and requested a direct number for Budget. The call ended with the agent transferring the user to a live agent for further assistance.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13144120182",
-      "to_number": "+18156863613",
-      "cost": 0.76,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_feab3b3c32555744e7f858d351b",
-      "timestamp": "2026-04-28T13:10:33.814000",
-      "duration": "15s",
-      "duration_seconds": 16,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user called and was quickly transferred to a live agent for further assistance without any detailed conversation.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13147504441",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_ef7bb2ca15767d163236f146c53",
-      "timestamp": "2026-04-28T13:07:18.311000",
-      "duration": "3m 25s",
-      "duration_seconds": 206,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "Maggie from American Home Shield called to follow up on a denied work order for a customer's forced air furnace and central air conditioning. The agent confirmed details including the dispatch number and preferred service window within 24 to 48 hours. The call ended with confirmation of the information but no booking was requested.",
-      "disconnection_reason": "user_hangup",
-      "direction": "inbound",
-      "from_number": "+18007764663",
-      "to_number": "+18156863613",
-      "cost": 0.88,
       "in_voicemail": false
     }
   ]
