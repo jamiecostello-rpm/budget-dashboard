@@ -1,48 +1,48 @@
 {
   "client_name": "Budget",
   "agent_name": "Budget (12 agents)",
-  "generated_at": "2026-05-03T18:13:11.727272",
+  "generated_at": "2026-05-03T19:30:00.417142",
   "stats": {
-    "total_calls": 1615,
-    "avg_duration_seconds": 93.0,
-    "total_talk_time_seconds": 150143,
+    "total_calls": 1608,
+    "avg_duration_seconds": 93.1,
+    "total_talk_time_seconds": 149672,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 840.4,
     "success_rate_pct": 81.2,
-    "successful_calls": 1311,
-    "failed_calls": 304,
+    "successful_calls": 1305,
+    "failed_calls": 303,
     "sentiment": {
       "positive": 218,
-      "neutral": 1311,
+      "neutral": 1306,
       "negative": 49,
-      "unknown": 37,
-      "positive_pct": 13.5,
+      "unknown": 35,
+      "positive_pct": 13.6,
       "neutral_pct": 81.2,
       "negative_pct": 3.0
     },
     "disconnection_reasons": {
-      "user_hangup": 733,
+      "user_hangup": 729,
       "agent_hangup": 130,
-      "call_transfer": 742,
+      "call_transfer": 739,
       "voicemail_reached": 6,
       "error_unknown": 3,
       "inactivity": 1
     },
     "direction": {
-      "inbound": 1615,
+      "inbound": 1608,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 555.27,
+      "total": 553.62,
       "avg_per_call": 0.34,
       "by_product": {
-        "retell_voice_engine": 137.89,
-        "elevenlabs_tts_03_2026": 100.31,
-        "gpt_4_1_high_priority": 170.14,
-        "llm_token_surcharge": 133.86,
-        "knowledge_base_usage": 11.33
+        "retell_voice_engine": 137.42,
+        "elevenlabs_tts_03_2026": 99.99,
+        "gpt_4_1_high_priority": 169.61,
+        "knowledge_base_usage": 11.29,
+        "llm_token_surcharge": 133.53
       }
     },
     "voicemail": {
@@ -51,20 +51,20 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
-        "Unsure": 642,
-        "No": 715,
-        "Yes": 203,
+        "No": 712,
+        "Unsure": 641,
+        "Yes": 202,
         "Maybe": 18
       },
       "call_status": {
-        "requested_contact": 1242,
-        "call_ended_abruptly": 270,
+        "call_ended_abruptly": 271,
+        "requested_contact": 1236,
         "information_only_no_contact": 58,
         "emegency_transfer": 8
       }
     },
     "daily_volume": {
-      "2026-04-03": 24,
+      "2026-04-03": 16,
       "2026-04-04": 31,
       "2026-04-05": 1,
       "2026-04-06": 72,
@@ -94,46 +94,46 @@
       "2026-04-30": 58,
       "2026-05-01": 59,
       "2026-05-02": 13,
-      "2026-05-03": 2
+      "2026-05-03": 3
     }
   },
   "stats_today": {
-    "total_calls": 2,
-    "avg_duration_seconds": 256.9,
-    "total_talk_time_seconds": 514,
-    "min_duration_seconds": 206.3,
+    "total_calls": 3,
+    "avg_duration_seconds": 185.7,
+    "total_talk_time_seconds": 557,
+    "min_duration_seconds": 43.4,
     "max_duration_seconds": 307.5,
-    "success_rate_pct": 100.0,
+    "success_rate_pct": 66.7,
     "successful_calls": 2,
-    "failed_calls": 0,
+    "failed_calls": 1,
     "sentiment": {
       "positive": 1,
-      "neutral": 1,
+      "neutral": 2,
       "negative": 0,
       "unknown": 0,
-      "positive_pct": 50.0,
-      "neutral_pct": 50.0,
+      "positive_pct": 33.3,
+      "neutral_pct": 66.7,
       "negative_pct": 0.0
     },
     "disconnection_reasons": {
-      "user_hangup": 1,
+      "user_hangup": 2,
       "agent_hangup": 1
     },
     "direction": {
-      "inbound": 2,
+      "inbound": 3,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 1.9,
-      "avg_per_call": 0.95,
+      "total": 2.03,
+      "avg_per_call": 0.68,
       "by_product": {
-        "retell_voice_engine": 0.47,
-        "elevenlabs_tts_03_2026": 0.35,
-        "gpt_4_1_high_priority": 0.58,
-        "llm_token_surcharge": 0.47,
-        "knowledge_base_usage": 0.05
+        "retell_voice_engine": 0.51,
+        "elevenlabs_tts_03_2026": 0.38,
+        "gpt_4_1_high_priority": 0.63,
+        "knowledge_base_usage": 0.05,
+        "llm_token_surcharge": 0.47
       }
     },
     "voicemail": {
@@ -142,28 +142,30 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
+        "No": 1,
         "Unsure": 2
       },
       "call_status": {
+        "call_ended_abruptly": 1,
         "requested_contact": 2
       }
     },
     "daily_volume": {
-      "2026-05-03": 2
+      "2026-05-03": 3
     }
   },
   "stats_7d": {
-    "total_calls": 297,
-    "avg_duration_seconds": 88.3,
-    "total_talk_time_seconds": 26230,
+    "total_calls": 298,
+    "avg_duration_seconds": 88.2,
+    "total_talk_time_seconds": 26273,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 499.9,
-    "success_rate_pct": 77.4,
+    "success_rate_pct": 77.2,
     "successful_calls": 230,
-    "failed_calls": 67,
+    "failed_calls": 68,
     "sentiment": {
       "positive": 39,
-      "neutral": 247,
+      "neutral": 248,
       "negative": 5,
       "unknown": 6,
       "positive_pct": 13.1,
@@ -171,26 +173,26 @@
       "negative_pct": 1.7
     },
     "disconnection_reasons": {
-      "user_hangup": 136,
+      "user_hangup": 137,
       "agent_hangup": 29,
       "call_transfer": 129,
       "voicemail_reached": 3
     },
     "direction": {
-      "inbound": 297,
+      "inbound": 298,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 96.55,
-      "avg_per_call": 0.33,
+      "total": 96.67,
+      "avg_per_call": 0.32,
       "by_product": {
-        "retell_voice_engine": 24.09,
-        "elevenlabs_tts_03_2026": 17.52,
-        "gpt_4_1_high_priority": 29.7,
-        "llm_token_surcharge": 22.91,
-        "knowledge_base_usage": 1.99
+        "retell_voice_engine": 24.11,
+        "elevenlabs_tts_03_2026": 17.55,
+        "gpt_4_1_high_priority": 29.77,
+        "knowledge_base_usage": 1.99,
+        "llm_token_surcharge": 22.91
       }
     },
     "voicemail": {
@@ -199,14 +201,14 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
+        "No": 128,
         "Unsure": 127,
-        "No": 127,
         "Yes": 35,
         "Maybe": 2
       },
       "call_status": {
+        "call_ended_abruptly": 63,
         "requested_contact": 220,
-        "call_ended_abruptly": 62,
         "information_only_no_contact": 9
       }
     },
@@ -218,10 +220,25 @@
       "2026-04-30": 58,
       "2026-05-01": 59,
       "2026-05-02": 13,
-      "2026-05-03": 2
+      "2026-05-03": 3
     }
   },
   "recent_calls": [
+    {
+      "call_id": "call_1bce8b5bc08f06f2964abcf5bf9",
+      "timestamp": "2026-05-03T19:00:14.391000",
+      "duration": "43s",
+      "duration_seconds": 43,
+      "sentiment": "Neutral",
+      "successful": false,
+      "summary": "The call was an inbound informational message from Maclin, the building principal at Hazelwood Central High School, reminding about the Algebra 1 ELC end of course exam dates and preparation tips. The agent introduced herself but the call ended shortly after without further interaction.",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13149535400",
+      "to_number": "+18156863613",
+      "cost": 0.12,
+      "in_voicemail": false
+    },
     {
       "call_id": "call_17f986611b975ac0cedfa9dafc5",
       "timestamp": "2026-05-03T14:22:24.374000",
@@ -953,21 +970,6 @@
       "disconnection_reason": "call_transfer",
       "direction": "inbound",
       "from_number": "+13144121609",
-      "to_number": "+18156863613",
-      "cost": 0.04,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_8503bcc29feb6d9d60df98a019a",
-      "timestamp": "2026-05-01T16:04:16.188000",
-      "duration": "14s",
-      "duration_seconds": 14,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user requested to speak with Nicole, and the agent successfully transferred the call to the appropriate person. The call ended shortly after the transfer was completed.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+12074369866",
       "to_number": "+18156863613",
       "cost": 0.04,
       "in_voicemail": false
