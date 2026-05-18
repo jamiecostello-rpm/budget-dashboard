@@ -1,48 +1,48 @@
 {
   "client_name": "Budget",
   "agent_name": "Budget (12 agents)",
-  "generated_at": "2026-05-17T23:04:45.156040",
+  "generated_at": "2026-05-18T00:09:43.545463",
   "stats": {
-    "total_calls": 1264,
+    "total_calls": 1262,
     "avg_duration_seconds": 82.7,
-    "total_talk_time_seconds": 104577,
+    "total_talk_time_seconds": 104404,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 1429.2,
-    "success_rate_pct": 79.9,
-    "successful_calls": 1010,
-    "failed_calls": 254,
+    "success_rate_pct": 80.0,
+    "successful_calls": 1009,
+    "failed_calls": 253,
     "sentiment": {
       "positive": 161,
-      "neutral": 1039,
+      "neutral": 1037,
       "negative": 35,
       "unknown": 29,
-      "positive_pct": 12.7,
+      "positive_pct": 12.8,
       "neutral_pct": 82.2,
       "negative_pct": 2.8
     },
     "disconnection_reasons": {
       "agent_hangup": 111,
-      "user_hangup": 542,
+      "user_hangup": 540,
       "call_transfer": 601,
       "inactivity": 2,
       "voicemail_reached": 7,
       "error_unknown": 1
     },
     "direction": {
-      "inbound": 1264,
+      "inbound": 1262,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 382.39,
+      "total": 381.82,
       "avg_per_call": 0.3,
       "by_product": {
-        "retell_voice_engine": 96.25,
-        "elevenlabs_tts_03_2026": 69.87,
-        "gpt_4_1_high_priority": 118.73,
-        "llm_token_surcharge": 88.58,
-        "knowledge_base_usage": 7.74
+        "retell_voice_engine": 96.1,
+        "elevenlabs_tts_03_2026": 69.75,
+        "gpt_4_1_high_priority": 118.53,
+        "llm_token_surcharge": 88.5,
+        "knowledge_base_usage": 7.73
       }
     },
     "voicemail": {
@@ -51,20 +51,19 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
-        "No": 556,
+        "No": 555,
         "Yes": 156,
-        "Unsure": 513,
+        "Unsure": 512,
         "Maybe": 10
       },
       "call_status": {
-        "requested_contact": 949,
-        "call_ended_abruptly": 227,
+        "requested_contact": 948,
+        "call_ended_abruptly": 226,
         "information_only_no_contact": 52,
         "emegency_transfer": 7
       }
     },
     "daily_volume": {
-      "2026-04-17": 2,
       "2026-04-18": 27,
       "2026-04-19": 2,
       "2026-04-20": 69,
@@ -97,61 +96,41 @@
     }
   },
   "stats_today": {
-    "total_calls": 6,
-    "avg_duration_seconds": 107.9,
-    "total_talk_time_seconds": 648,
-    "min_duration_seconds": 0.0,
-    "max_duration_seconds": 189.5,
-    "success_rate_pct": 83.3,
-    "successful_calls": 5,
-    "failed_calls": 1,
+    "total_calls": 0,
+    "avg_duration_seconds": 0,
+    "total_talk_time_seconds": 0,
+    "min_duration_seconds": 0,
+    "max_duration_seconds": 0,
+    "success_rate_pct": 0,
+    "successful_calls": 0,
+    "failed_calls": 0,
     "sentiment": {
-      "positive": 1,
-      "neutral": 4,
+      "positive": 0,
+      "neutral": 0,
       "negative": 0,
-      "unknown": 1,
-      "positive_pct": 16.7,
-      "neutral_pct": 66.7,
-      "negative_pct": 0.0
+      "unknown": 0,
+      "positive_pct": 0,
+      "neutral_pct": 0,
+      "negative_pct": 0
     },
-    "disconnection_reasons": {
-      "agent_hangup": 1,
-      "user_hangup": 5
-    },
+    "disconnection_reasons": {},
     "direction": {
-      "inbound": 6,
+      "inbound": 0,
       "outbound": 0,
-      "inbound_pct": 100.0,
-      "outbound_pct": 0.0
+      "inbound_pct": 0,
+      "outbound_pct": 0
     },
     "cost": {
-      "total": 2.5,
-      "avg_per_call": 0.42,
-      "by_product": {
-        "retell_voice_engine": 0.6,
-        "elevenlabs_tts_03_2026": 0.44,
-        "gpt_4_1_high_priority": 0.73,
-        "llm_token_surcharge": 0.68,
-        "knowledge_base_usage": 0.06
-      }
+      "total": 0,
+      "avg_per_call": 0,
+      "by_product": {}
     },
     "voicemail": {
       "count": 0,
-      "pct": 0.0
+      "pct": 0
     },
-    "custom_analysis": {
-      "maintenance_interest": {
-        "No": 1,
-        "Yes": 2,
-        "Unsure": 2
-      },
-      "call_status": {
-        "requested_contact": 5
-      }
-    },
-    "daily_volume": {
-      "2026-05-17": 6
-    }
+    "custom_analysis": {},
+    "daily_volume": {}
   },
   "stats_7d": {
     "total_calls": 363,
