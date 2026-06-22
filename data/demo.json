@@ -1,47 +1,47 @@
 {
   "client_name": "Budget",
   "agent_name": "Budget (12 agents)",
-  "generated_at": "2026-06-21T22:56:08.937009",
+  "generated_at": "2026-06-22T00:15:54.603670",
   "stats": {
-    "total_calls": 2130,
+    "total_calls": 2129,
     "avg_duration_seconds": 76.2,
-    "total_talk_time_seconds": 162200,
+    "total_talk_time_seconds": 162132,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 899.5,
     "success_rate_pct": 83.9,
-    "successful_calls": 1788,
+    "successful_calls": 1787,
     "failed_calls": 342,
     "sentiment": {
       "positive": 231,
-      "neutral": 1770,
+      "neutral": 1769,
       "negative": 78,
       "unknown": 51,
-      "positive_pct": 10.8,
+      "positive_pct": 10.9,
       "neutral_pct": 83.1,
       "negative_pct": 3.7
     },
     "disconnection_reasons": {
-      "user_hangup": 782,
+      "user_hangup": 781,
       "agent_hangup": 171,
       "call_transfer": 1166,
       "voicemail_reached": 6,
       "inactivity": 5
     },
     "direction": {
-      "inbound": 2130,
+      "inbound": 2129,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
-      "total": 583.03,
+      "total": 582.84,
       "avg_per_call": 0.27,
       "by_product": {
-        "retell_voice_engine": 149.08,
-        "elevenlabs_tts_03_2026": 108.46,
-        "gpt_4_1_high_priority": 184.46,
+        "retell_voice_engine": 149.02,
+        "elevenlabs_tts_03_2026": 108.41,
+        "gpt_4_1_high_priority": 184.38,
         "llm_token_surcharge": 126.9,
-        "knowledge_base_usage": 12.0
+        "knowledge_base_usage": 11.99
       }
     },
     "voicemail": {
@@ -50,20 +50,19 @@
     },
     "custom_analysis": {
       "maintenance_interest": {
-        "Unsure": 856,
+        "Unsure": 855,
         "No": 1029,
         "Yes": 174,
         "Maybe": 20
       },
       "call_status": {
-        "requested_contact": 1693,
+        "requested_contact": 1692,
         "call_ended_abruptly": 290,
         "information_only_no_contact": 84,
         "emegency_transfer": 12
       }
     },
     "daily_volume": {
-      "2026-05-22": 1,
       "2026-05-23": 26,
       "2026-05-24": 9,
       "2026-05-25": 19,
@@ -97,60 +96,41 @@
     }
   },
   "stats_today": {
-    "total_calls": 5,
-    "avg_duration_seconds": 107.4,
-    "total_talk_time_seconds": 537,
-    "min_duration_seconds": 39.0,
-    "max_duration_seconds": 166.3,
-    "success_rate_pct": 100.0,
-    "successful_calls": 5,
+    "total_calls": 0,
+    "avg_duration_seconds": 0,
+    "total_talk_time_seconds": 0,
+    "min_duration_seconds": 0,
+    "max_duration_seconds": 0,
+    "success_rate_pct": 0,
+    "successful_calls": 0,
     "failed_calls": 0,
     "sentiment": {
-      "positive": 1,
-      "neutral": 4,
+      "positive": 0,
+      "neutral": 0,
       "negative": 0,
       "unknown": 0,
-      "positive_pct": 20.0,
-      "neutral_pct": 80.0,
-      "negative_pct": 0.0
+      "positive_pct": 0,
+      "neutral_pct": 0,
+      "negative_pct": 0
     },
-    "disconnection_reasons": {
-      "user_hangup": 4,
-      "agent_hangup": 1
-    },
+    "disconnection_reasons": {},
     "direction": {
-      "inbound": 5,
+      "inbound": 0,
       "outbound": 0,
-      "inbound_pct": 100.0,
-      "outbound_pct": 0.0
+      "inbound_pct": 0,
+      "outbound_pct": 0
     },
     "cost": {
-      "total": 2.03,
-      "avg_per_call": 0.41,
-      "by_product": {
-        "retell_voice_engine": 0.5,
-        "elevenlabs_tts_03_2026": 0.36,
-        "gpt_4_1_high_priority": 0.61,
-        "llm_token_surcharge": 0.52,
-        "knowledge_base_usage": 0.04
-      }
+      "total": 0,
+      "avg_per_call": 0,
+      "by_product": {}
     },
     "voicemail": {
       "count": 0,
-      "pct": 0.0
+      "pct": 0
     },
-    "custom_analysis": {
-      "maintenance_interest": {
-        "Unsure": 1,
-        "No": 4
-      },
-      "call_status": {
-        "requested_contact": 5
-      }
-    },
-    "daily_volume": {
-      "2026-06-21": 5
-    }
+    "custom_analysis": {},
+    "daily_volume": {}
   },
   "stats_7d": {
     "total_calls": 404,
