@@ -1,34 +1,34 @@
 {
   "client_name": "Budget",
   "agent_name": "Budget (5 agents)",
-  "generated_at": "2026-08-16T02:54:32.525812",
+  "generated_at": "2026-08-16T03:47:18.395928",
   "stats": {
-    "total_calls": 1472,
+    "total_calls": 1473,
     "avg_duration_seconds": 72.3,
     "total_talk_time_seconds": 106436,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 1370.7,
     "success_rate_pct": 79.8,
     "successful_calls": 1175,
-    "failed_calls": 297,
+    "failed_calls": 298,
     "sentiment": {
       "positive": 162,
       "neutral": 1244,
       "negative": 38,
-      "unknown": 28,
+      "unknown": 29,
       "positive_pct": 11.0,
       "neutral_pct": 84.5,
       "negative_pct": 2.6
     },
     "disconnection_reasons": {
-      "user_hangup": 607,
+      "user_hangup": 608,
       "agent_hangup": 125,
       "call_transfer": 734,
       "voicemail_reached": 4,
       "inactivity": 2
     },
     "direction": {
-      "inbound": 1472,
+      "inbound": 1473,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
@@ -93,39 +93,39 @@
       "2026-08-13": 53,
       "2026-08-14": 46,
       "2026-08-15": 17,
-      "2026-08-16": 1
+      "2026-08-16": 2
     }
   },
   "stats_today": {
-    "total_calls": 1,
-    "avg_duration_seconds": 6.6,
+    "total_calls": 2,
+    "avg_duration_seconds": 3.3,
     "total_talk_time_seconds": 7,
-    "min_duration_seconds": 6.6,
+    "min_duration_seconds": 0.0,
     "max_duration_seconds": 6.6,
     "success_rate_pct": 0.0,
     "successful_calls": 0,
-    "failed_calls": 1,
+    "failed_calls": 2,
     "sentiment": {
       "positive": 0,
       "neutral": 1,
       "negative": 0,
-      "unknown": 0,
+      "unknown": 1,
       "positive_pct": 0.0,
-      "neutral_pct": 100.0,
+      "neutral_pct": 50.0,
       "negative_pct": 0.0
     },
     "disconnection_reasons": {
-      "user_hangup": 1
+      "user_hangup": 2
     },
     "direction": {
-      "inbound": 1,
+      "inbound": 2,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
     },
     "cost": {
       "total": 0.02,
-      "avg_per_call": 0.02,
+      "avg_per_call": 0.01,
       "by_product": {
         "retell_voice_engine": 0.01,
         "elevenlabs_tts_03_2026": 0.0,
@@ -146,35 +146,35 @@
       }
     },
     "daily_volume": {
-      "2026-08-16": 1
+      "2026-08-16": 2
     }
   },
   "stats_7d": {
-    "total_calls": 337,
-    "avg_duration_seconds": 76.0,
+    "total_calls": 338,
+    "avg_duration_seconds": 75.8,
     "total_talk_time_seconds": 25607,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 1370.7,
-    "success_rate_pct": 76.6,
+    "success_rate_pct": 76.3,
     "successful_calls": 258,
-    "failed_calls": 79,
+    "failed_calls": 80,
     "sentiment": {
       "positive": 27,
       "neutral": 294,
       "negative": 9,
-      "unknown": 7,
+      "unknown": 8,
       "positive_pct": 8.0,
-      "neutral_pct": 87.2,
+      "neutral_pct": 87.0,
       "negative_pct": 2.7
     },
     "disconnection_reasons": {
-      "user_hangup": 152,
+      "user_hangup": 153,
       "agent_hangup": 31,
       "call_transfer": 153,
       "voicemail_reached": 1
     },
     "direction": {
-      "inbound": 337,
+      "inbound": 338,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
@@ -215,10 +215,25 @@
       "2026-08-13": 53,
       "2026-08-14": 46,
       "2026-08-15": 17,
-      "2026-08-16": 1
+      "2026-08-16": 2
     }
   },
   "recent_calls": [
+    {
+      "call_id": "call_dd9226438221004ffb0f5afa759",
+      "timestamp": "2026-08-16T03:37:59.361000",
+      "duration": "0s",
+      "duration_seconds": 0,
+      "sentiment": "Unknown",
+      "successful": false,
+      "summary": "",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13147573015",
+      "to_number": "+18156863613",
+      "cost": 0.0,
+      "in_voicemail": false
+    },
     {
       "call_id": "call_23b7d221c46fe34da9e02e52ad6",
       "timestamp": "2026-08-16T00:11:46.970000",
@@ -952,21 +967,6 @@
       "from_number": "+13144018604",
       "to_number": "+18156863613",
       "cost": 0.14,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_793c09f642c8895ecb6e5e274de",
-      "timestamp": "2026-08-14T15:20:55.945000",
-      "duration": "2m 33s",
-      "duration_seconds": 154,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "Rob called to schedule a reinspection for an HVAC residential replacement at 37 Jost Villa Drive in Florissant, Missouri. The agent confirmed the details and available time slots, but Rob requested to speak to a live person, leading to a call transfer. The call ended with the transfer to another agent.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+13144228898",
-      "to_number": "+18156863613",
-      "cost": 0.56,
       "in_voicemail": false
     }
   ]
