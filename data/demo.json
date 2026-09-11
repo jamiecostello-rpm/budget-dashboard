@@ -1,27 +1,27 @@
 {
   "client_name": "Budget",
   "agent_name": "Budget (5 agents)",
-  "generated_at": "2026-09-11T05:09:34.635691",
+  "generated_at": "2026-09-11T09:42:14.069779",
   "stats": {
-    "total_calls": 1601,
+    "total_calls": 1602,
     "avg_duration_seconds": 73.8,
     "total_talk_time_seconds": 118216,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 1059.7,
-    "success_rate_pct": 78.6,
+    "success_rate_pct": 78.5,
     "successful_calls": 1258,
-    "failed_calls": 343,
+    "failed_calls": 344,
     "sentiment": {
       "positive": 161,
       "neutral": 1356,
       "negative": 39,
-      "unknown": 45,
-      "positive_pct": 10.1,
-      "neutral_pct": 84.7,
+      "unknown": 46,
+      "positive_pct": 10.0,
+      "neutral_pct": 84.6,
       "negative_pct": 2.4
     },
     "disconnection_reasons": {
-      "user_hangup": 691,
+      "user_hangup": 692,
       "call_transfer": 768,
       "agent_hangup": 132,
       "inactivity": 8,
@@ -29,7 +29,7 @@
       "voicemail_reached": 1
     },
     "direction": {
-      "inbound": 1601,
+      "inbound": 1602,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
@@ -94,32 +94,32 @@
       "2026-09-08": 77,
       "2026-09-09": 66,
       "2026-09-10": 67,
-      "2026-09-11": 1
+      "2026-09-11": 2
     }
   },
   "stats_today": {
-    "total_calls": 1,
+    "total_calls": 2,
     "avg_duration_seconds": 0.0,
     "total_talk_time_seconds": 0,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 0.0,
     "success_rate_pct": 0.0,
     "successful_calls": 0,
-    "failed_calls": 1,
+    "failed_calls": 2,
     "sentiment": {
       "positive": 0,
       "neutral": 0,
       "negative": 0,
-      "unknown": 1,
+      "unknown": 2,
       "positive_pct": 0.0,
       "neutral_pct": 0.0,
       "negative_pct": 0.0
     },
     "disconnection_reasons": {
-      "user_hangup": 1
+      "user_hangup": 2
     },
     "direction": {
-      "inbound": 1,
+      "inbound": 2,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
@@ -135,35 +135,35 @@
     },
     "custom_analysis": {},
     "daily_volume": {
-      "2026-09-11": 1
+      "2026-09-11": 2
     }
   },
   "stats_7d": {
-    "total_calls": 383,
-    "avg_duration_seconds": 76.8,
+    "total_calls": 384,
+    "avg_duration_seconds": 76.6,
     "total_talk_time_seconds": 29433,
     "min_duration_seconds": 0.0,
     "max_duration_seconds": 623.8,
-    "success_rate_pct": 81.7,
+    "success_rate_pct": 81.5,
     "successful_calls": 313,
-    "failed_calls": 70,
+    "failed_calls": 71,
     "sentiment": {
       "positive": 50,
       "neutral": 314,
       "negative": 8,
-      "unknown": 11,
-      "positive_pct": 13.1,
-      "neutral_pct": 82.0,
+      "unknown": 12,
+      "positive_pct": 13.0,
+      "neutral_pct": 81.8,
       "negative_pct": 2.1
     },
     "disconnection_reasons": {
-      "user_hangup": 163,
+      "user_hangup": 164,
       "call_transfer": 172,
       "agent_hangup": 47,
       "inactivity": 1
     },
     "direction": {
-      "inbound": 383,
+      "inbound": 384,
       "outbound": 0,
       "inbound_pct": 100.0,
       "outbound_pct": 0.0
@@ -205,10 +205,25 @@
       "2026-09-08": 77,
       "2026-09-09": 66,
       "2026-09-10": 67,
-      "2026-09-11": 1
+      "2026-09-11": 2
     }
   },
   "recent_calls": [
+    {
+      "call_id": "call_9efdc2365c2fdcb8b9a75fb5dfd",
+      "timestamp": "2026-09-11T05:53:29.534000",
+      "duration": "0s",
+      "duration_seconds": 0,
+      "sentiment": "Unknown",
+      "successful": false,
+      "summary": "",
+      "disconnection_reason": "user_hangup",
+      "direction": "inbound",
+      "from_number": "+13146790967",
+      "to_number": "+18156863613",
+      "cost": 0.0,
+      "in_voicemail": false
+    },
     {
       "call_id": "call_b0674336b0acb77d715c8abf430",
       "timestamp": "2026-09-11T00:53:43.502000",
@@ -942,21 +957,6 @@
       "from_number": "+18583824677",
       "to_number": "+18156863613",
       "cost": 0.09,
-      "in_voicemail": false
-    },
-    {
-      "call_id": "call_6769499266da662de50f7018061",
-      "timestamp": "2026-09-10T15:14:16.933000",
-      "duration": "13s",
-      "duration_seconds": 14,
-      "sentiment": "Neutral",
-      "successful": true,
-      "summary": "The user requested to speak with a live agent, and the initial agent transferred the call successfully to another representative.",
-      "disconnection_reason": "call_transfer",
-      "direction": "inbound",
-      "from_number": "+18709304448",
-      "to_number": "+18156863613",
-      "cost": 0.04,
       "in_voicemail": false
     }
   ]
